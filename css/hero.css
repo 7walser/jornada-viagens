@@ -5,12 +5,29 @@
   background-size: cover;
 }
 
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: var(--texts-weight);
+  text-align: center;
+  line-height: 1.5;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     width: 100%;
     background: url(../img/img-hero-tablet.jpg) no-repeat;
     background-size: cover;
+  }
+  .hero h2 {
+    padding: 88px 60px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: var(--texts-weight);
+    text-align: center;
+    line-height: 1.5;
   }
 }
 
@@ -20,5 +37,24 @@
     width: 100%;
     background: url(../img/img-hero-desktop.jpg) no-repeat;
     background-size: cover;
+  }
+  .hero h2 {
+    padding: 88px 120px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: var(--texts-weight);
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1920) {
+  .hero h2 {
+    padding: 88px 160;
+    margin: 0;
+    font-size: 32px;
+    font-weight: var(--texts-weight);
+    text-align: center;
+    line-height: 1.5;
   }
 }
