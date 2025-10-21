@@ -1,0 +1,29 @@
+.cards {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+.cards header {
+  display: block;
+  background-color: transparent;
+  position: relative;
+  font-size: 20px;
+  font-weight: var(--texts-weight);
+}
+
+.cards header h3 {
+    font-size: 40px;
+    margin: 8px 0 0;
+
+}
+
+.cards header span{
+    display: inline-block;
+    margin-top: 24px;
+    font-size: 32px;
+}
