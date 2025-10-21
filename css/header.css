@@ -91,7 +91,7 @@ input[type="checkbox"]:checked ~ nav {
     display: none;
   }
   .navigation-menu a:hover{
-    color: var(--secondary-color);
+    color: var(--secondary-color);             
   }
 }
 
