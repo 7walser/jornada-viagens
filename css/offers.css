@@ -14,15 +14,30 @@
   position: relative;
   font-size: 20px;
   font-weight: var(--texts-weight);
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .cards header h3 {
-    font-size: 40px;
-    margin: 8px 0 0;
+  font-size: 40px;
+  margin: 8px 0 0;
 }
 
-.cards header span{
-    display: inline-block;
-    margin-top: 24px;
-    font-size: 32px;
+.cards header span {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    width: 588px;
+    height: 308px;
+  }
+  .cards header h3 {
+    font-size: 48px;
+  }
+  .cards header span {
+    font-size: 40px;
+  }
 }
