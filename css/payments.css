@@ -1,0 +1,39 @@
+.payments {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.payments .img-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 254px 182px;
+  gap: 24px;
+}
+
+.img-content .image.bag {
+  background: url(../img/bag-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.img-content .image.passport {
+  background: url(../img/passport-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.img-content .image.people {
+  background: url(../img/people-mobile.png) no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments {
+    width: 900px;
+  }
+}

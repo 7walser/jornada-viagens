@@ -58,6 +58,17 @@ body {
   margin: 16px auto 32px auto;
 }
 
+.content-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--texts-weight);
+  line-height: 1.5;
+}
+
 .button {
   display: inline-block;
   width: 280px;
@@ -82,4 +93,3 @@ body {
     background-color: var(--primary-color);
   }
 }
-
